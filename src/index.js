@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import TrafficLight from './TrafficLight';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <TrafficLight />
   </React.StrictMode>,
   document.getElementById('root')
 );
