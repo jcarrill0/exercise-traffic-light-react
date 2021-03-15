@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 const TrafficBody = () => {
 
-    const [ color, setColor] = useState("");
+    const [color, setColor] = useState("");
     const [selected, setSelected] = useState(false);
 
     const semapherSelected = (e) => {

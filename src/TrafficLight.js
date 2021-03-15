@@ -4,7 +4,7 @@ function TrafficLight() {
   return (
     <div className="wrapper">
       <div className="trafficTop"></div>
-      <TrafficBody2 />
+      <TrafficBody2/>
     </div>
   );
 }
